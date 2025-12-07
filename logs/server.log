@@ -1,0 +1,175 @@
+[2025-12-07 16:07:02.909] [INFO] Logger initialized - log file: logs/server.log
+[2025-12-07 16:07:03.077] [INFO] WebServer started on port 8080
+[2025-12-07 16:07:03.078] [INFO] Thread pool size: 50
+[2025-12-07 16:07:03.078] [INFO] Default ChatGPT model: gpt-3.5-turbo
+[2025-12-07 16:07:24.236] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:07:24.246] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/]
+[2025-12-07 16:07:24.319] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/] 200
+[2025-12-07 16:07:24.346] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:07:24.347] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:07:24.349] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/styles.css]
+[2025-12-07 16:07:24.350] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/app.js]
+[2025-12-07 16:07:24.352] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/styles.css] 200
+[2025-12-07 16:07:24.353] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/app.js] 200
+[2025-12-07 16:07:24.440] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:07:24.442] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/favicon.ico]
+[2025-12-07 16:07:24.443] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/favicon.ico] 404
+[2025-12-07 16:07:34.301] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:07:34.304] [REQUEST] [0:0:0:0:0:0:0:1] [POST] [/chat]
+[2025-12-07 16:07:34.429] [INFO] Created chat session: 95f77cce38414fb3
+[2025-12-07 16:07:34.430] [ERROR] OpenAI API key not configured
+[2025-12-07 16:07:34.431] [ERROR] ChatGPT request failed for session: 95f77cce38414fb3
+[2025-12-07 16:07:34.432] [RESPONSE] [0:0:0:0:0:0:0:1] [POST] [/chat] 201
+[2025-12-07 16:07:34.438] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:07:34.440] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/chat/95f77cce38414fb3]
+[2025-12-07 16:07:34.441] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/chat/95f77cce38414fb3] 200
+[2025-12-07 16:07:44.948] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:07:44.951] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/login]
+[2025-12-07 16:07:44.954] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/login] 200
+[2025-12-07 16:08:08.642] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:08:08.646] [REQUEST] [0:0:0:0:0:0:0:1] [POST] [/admin/login]
+[2025-12-07 16:08:08.682] [ERROR] Login failed - invalid password for user: admin from unknown
+[2025-12-07 16:08:08.683] [ERROR] Failed login attempt for user: admin
+[2025-12-07 16:08:08.685] [RESPONSE] [0:0:0:0:0:0:0:1] [POST] [/admin/login] 200
+[2025-12-07 16:09:17.868] [INFO] WebServer shutting down...
+[2025-12-07 16:09:17.869] [INFO] WebServer stopped
+[2025-12-07 16:09:26.343] [INFO] Logger initialized - log file: logs/server.log
+[2025-12-07 16:09:26.368] [INFO] WebServer started on port 8080
+[2025-12-07 16:09:26.369] [INFO] Thread pool size: 50
+[2025-12-07 16:09:26.370] [INFO] Default ChatGPT model: gpt-3.5-turbo
+[2025-12-07 16:09:47.256] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:09:47.259] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:09:47.270] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/]
+[2025-12-07 16:09:47.373] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/] 200
+[2025-12-07 16:09:47.414] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/styles.css]
+[2025-12-07 16:09:47.415] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:09:47.420] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/app.js]
+[2025-12-07 16:09:47.422] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/styles.css] 200
+[2025-12-07 16:09:47.426] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/app.js] 200
+[2025-12-07 16:09:47.603] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:09:47.607] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/favicon.ico]
+[2025-12-07 16:09:47.611] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/favicon.ico] 404
+[2025-12-07 16:09:53.140] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:09:53.143] [REQUEST] [0:0:0:0:0:0:0:1] [POST] [/chat]
+[2025-12-07 16:09:53.331] [INFO] Created chat session: 03ebf3c563d94f63
+[2025-12-07 16:09:55.411] [ERROR] ChatGPT API error: 429 - {    "error": {        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",        "type": "insufficient_quota",        "param": null,        "code": "insufficient_quota"    }}
+[2025-12-07 16:09:55.413] [ERROR] ChatGPT request failed for session: 03ebf3c563d94f63
+[2025-12-07 16:09:55.415] [RESPONSE] [0:0:0:0:0:0:0:1] [POST] [/chat] 201
+[2025-12-07 16:09:55.422] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:09:55.424] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/chat/03ebf3c563d94f63]
+[2025-12-07 16:09:55.427] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/chat/03ebf3c563d94f63] 200
+[2025-12-07 16:11:26.985] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:11:27.057] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:11:27.058] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/login]
+[2025-12-07 16:11:27.061] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/login] 200
+[2025-12-07 16:11:57.066] [ERROR] Client timeout: 0:0:0:0:0:0:0:1
+[2025-12-07 16:12:06.681] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:12:06.682] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:12:06.683] [REQUEST] [0:0:0:0:0:0:0:1] [POST] [/admin/login]
+[2025-12-07 16:12:06.695] [ERROR] Login failed - invalid password for user: admin from unknown
+[2025-12-07 16:12:06.697] [ERROR] Failed login attempt for user: admin
+[2025-12-07 16:12:06.698] [RESPONSE] [0:0:0:0:0:0:0:1] [POST] [/admin/login] 200
+[2025-12-07 16:12:08.057] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:12:08.057] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/login]
+[2025-12-07 16:12:08.072] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/login] 200
+[2025-12-07 16:12:38.072] [ERROR] Client timeout: 0:0:0:0:0:0:0:1
+[2025-12-07 16:13:30.208] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:13:30.210] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:13:30.211] [REQUEST] [0:0:0:0:0:0:0:1] [POST] [/admin/login]
+[2025-12-07 16:13:30.217] [INFO] Admin session created for user: admin from unknown
+[2025-12-07 16:13:30.217] [INFO] Admin login successful: admin
+[2025-12-07 16:13:30.218] [RESPONSE] [0:0:0:0:0:0:0:1] [POST] [/admin/login] 302
+[2025-12-07 16:13:30.223] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/dashboard]
+[2025-12-07 16:13:30.231] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/dashboard] 200
+[2025-12-07 16:13:30.266] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:13:30.268] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status]
+[2025-12-07 16:13:30.269] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status] 200
+[2025-12-07 16:13:38.493] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:13:38.496] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/api/sessions]
+[2025-12-07 16:13:38.498] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/api/sessions] 200
+[2025-12-07 16:13:41.673] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:13:41.674] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/api/logs]
+[2025-12-07 16:13:41.677] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/api/logs] 200
+[2025-12-07 16:13:45.795] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:13:45.797] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status]
+[2025-12-07 16:13:45.798] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status] 200
+[2025-12-07 16:13:46.951] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:13:46.953] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status]
+[2025-12-07 16:13:46.955] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status] 200
+[2025-12-07 16:13:58.965] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:13:58.966] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status]
+[2025-12-07 16:13:58.967] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status] 200
+[2025-12-07 16:13:59.882] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:13:59.884] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status]
+[2025-12-07 16:13:59.886] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status] 200
+[2025-12-07 16:14:00.335] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:14:00.337] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status]
+[2025-12-07 16:14:00.339] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status] 200
+[2025-12-07 16:14:00.525] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:14:00.527] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status]
+[2025-12-07 16:14:00.528] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status] 200
+[2025-12-07 16:14:00.707] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:14:00.709] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status]
+[2025-12-07 16:14:00.710] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status] 200
+[2025-12-07 16:14:00.892] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:14:00.894] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status]
+[2025-12-07 16:14:00.895] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status] 200
+[2025-12-07 16:14:01.127] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:14:01.129] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status]
+[2025-12-07 16:14:01.130] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status] 200
+[2025-12-07 16:14:01.876] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:14:01.878] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/api/sessions]
+[2025-12-07 16:14:01.879] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/api/sessions] 200
+[2025-12-07 16:14:05.784] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:14:05.786] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/api/logs]
+[2025-12-07 16:14:05.789] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/api/logs] 200
+[2025-12-07 16:14:12.106] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:14:12.108] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/api/logs]
+[2025-12-07 16:14:12.110] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/api/logs] 200
+[2025-12-07 16:14:13.875] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:14:13.877] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/api/logs]
+[2025-12-07 16:14:13.878] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/api/logs] 200
+[2025-12-07 16:14:15.118] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:14:15.119] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/api/logs]
+[2025-12-07 16:14:15.121] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/api/logs] 200
+[2025-12-07 16:14:18.424] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:14:18.426] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status]
+[2025-12-07 16:14:18.427] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status] 200
+[2025-12-07 16:14:50.715] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:14:50.718] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status]
+[2025-12-07 16:14:50.719] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/api/status] 200
+[2025-12-07 16:14:54.673] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:14:54.764] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:14:54.765] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/logout]
+[2025-12-07 16:14:54.766] [INFO] Admin session invalidated for user: admin
+[2025-12-07 16:14:54.768] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/logout] 302
+[2025-12-07 16:14:54.773] [REQUEST] [0:0:0:0:0:0:0:1] [GET] [/admin/login]
+[2025-12-07 16:14:54.776] [RESPONSE] [0:0:0:0:0:0:0:1] [GET] [/admin/login] 200
+[2025-12-07 16:14:56.132] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:14:56.219] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:28:47.145] [INFO] Logger initialized - log file: logs/server.log
+[2025-12-07 16:28:47.161] [INFO] WebServer started on port 8080
+[2025-12-07 16:28:47.161] [INFO] Thread pool size: 50
+[2025-12-07 16:28:47.161] [INFO] Default ChatGPT model: gpt-3.5-turbo
+[2025-12-07 16:28:52.572] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:28:52.575] [REQUEST] [127.0.0.1] [GET] [/]
+[2025-12-07 16:28:52.610] [RESPONSE] [127.0.0.1] [GET] [/] 200
+[2025-12-07 16:28:52.626] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:28:52.626] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:28:52.627] [REQUEST] [127.0.0.1] [GET] [/styles.css]
+[2025-12-07 16:28:52.627] [REQUEST] [127.0.0.1] [GET] [/app.js]
+[2025-12-07 16:28:52.627] [RESPONSE] [127.0.0.1] [GET] [/styles.css] 200
+[2025-12-07 16:28:52.627] [RESPONSE] [127.0.0.1] [GET] [/app.js] 200
+[2025-12-07 16:28:52.701] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:28:52.701] [REQUEST] [127.0.0.1] [GET] [/favicon.ico]
+[2025-12-07 16:28:52.701] [RESPONSE] [127.0.0.1] [GET] [/favicon.ico] 404
+[2025-12-07 16:28:56.955] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:28:56.957] [REQUEST] [127.0.0.1] [POST] [/chat]
+[2025-12-07 16:28:56.970] [INFO] Created chat session: c03302d2d767413e
+[2025-12-07 16:28:58.883] [INFO] ChatGPT request successful for session: c03302d2d767413e
+[2025-12-07 16:28:58.884] [RESPONSE] [127.0.0.1] [POST] [/chat] 201
+[2025-12-07 16:28:58.894] [INFO] Admin credentials configured for user: admin
+[2025-12-07 16:28:58.896] [REQUEST] [127.0.0.1] [GET] [/chat/c03302d2d767413e]
+[2025-12-07 16:28:58.896] [RESPONSE] [127.0.0.1] [GET] [/chat/c03302d2d767413e] 200
+[2025-12-07 16:30:01.879] [INFO] WebServer shutting down...
+[2025-12-07 16:30:01.883] [INFO] WebServer stopped
